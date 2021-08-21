@@ -1,9 +1,10 @@
+// Dom  
 const macBookPrice= document.getElementById('Best-price');
     const memoryCost = document.getElementById('Extra-Memory');
     const storageCost = document.getElementById('Extra-Storage');
     const deliveryCost = document.getElementById('Delivery-Charge');
     const total = document.getElementById('total-price');
-     
+//  memory      
 document.getElementById('cost-memory0').addEventListener('click',  function(){
     const oldPrice = document.getElementById('Extra-Memory');
     const updatePrice = oldPrice.innerText;
@@ -49,6 +50,7 @@ document.getElementById('charge-delivery').addEventListener('click',  function()
     oldPrice.innerText = 20; 
     totalCalc();
 })
+// Total calculation  
 function totalCalc() {
     const defaultPrice = parseInt(document.getElementById("Best-Price").innerText);
     const memoryExpense = parseInt(document.getElementById('Extra-Memory').innerText);
