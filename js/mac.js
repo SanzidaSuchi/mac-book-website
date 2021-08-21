@@ -39,7 +39,7 @@ document.getElementById('cost-storage1TB').addEventListener('click',  function()
 
 // delivary charge
 document.getElementById('free-delivery').addEventListener('click',  function(){
-    const oldPrice = document.getElementById('total-price');
+    const oldPrice = document.getElementById('Delivery-Charge');
     const updatePrice = oldPrice.innerText;
     oldPrice.innerText = 0; 
     totalCalc();
